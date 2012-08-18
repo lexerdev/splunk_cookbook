@@ -34,7 +34,7 @@ default['splunk']['receiver_port']                = "9997"
 default['splunk']['limits_thruput']               = "256"
 
 #Change the default admin password (Username::Password)
-default['splunk']['auth']                         = "admin:SomePassword123!!"
+default['splunk']['auth']                         = "admin:SomePassword123"
 
 #Set the role of your splunk indexer
 default['splunk']['server_role']                  = "splunk-server"
@@ -51,8 +51,8 @@ default['splunk']['server_version']               = "4.3.2"
 default['splunk']['server_build']                 = "123586"
 #Forwarder
 default['splunk']['forwarder_root']               = "http://download.splunk.com/releases"
-default['splunk']['forwarder_version']            = "4.3.2"
-default['splunk']['forwarder_build']              = "123586"
+default['splunk']['forwarder_version']            = "4.3.3"
+default['splunk']['forwarder_build']              = "128297"
 
 # Unix app version number 
 default['splunk']['unix_app_file']                = "unix.tar.gz"
