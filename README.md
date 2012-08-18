@@ -6,6 +6,7 @@ This Chef cookbook provides recipes for installing Splunk Server, Splunk Forward
 Changes
 =======
 
+* v0.0.5 - Added Splunk Storm support.
 * v0.0.4 - Added a splunk app: Pulse for AWS Cloudwatch.  This app will pull back metrics from AWS Cloudwatch and provides sample dashboards to display the information.  Read the SETUP.txt located in the root directory of the app file for installation requirements.
 * v0.0.3 - Changing version of Splunk to 4.3
 * v0.0.2 - Revamp
@@ -108,6 +109,12 @@ forwarder
 ---------
 
 Installs Splunk Forwarder
+
+storm
+-----
+
+Installs Splunk Forwarder for Storm.
+- You need to setup data bags with your Splunk Storm credentials. Check out this gist for details: https://gist.github.com/3384786
 
 deploy-mon-app
 --------------
